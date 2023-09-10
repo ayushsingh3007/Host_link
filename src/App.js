@@ -1,12 +1,15 @@
+import React from "react";
 
 import './App.css';
-import Hostlink from './Host/Hostlink';
+
+import Navbar from "./Handson/Navbar";
+
 
 function App() {
   return (
-    <div className="App">
-      <Hostlink/>
-
+    <div>
+     <Navbar/>
+    
     </div>
   );
 }
